@@ -2,7 +2,7 @@
 <widget id="AxiomBeta" version="1.0.0">
   <name>Axiom Beta</name>
   <description>
-    A n interface to the Axiom Beta Camera
+    An interface to the Axiom Beta Camera
   </description>
   <author email="gcolburn@gmail.com" href="http://www.apertus.org">
   </author>
