@@ -1,6 +1,6 @@
 {
-  "title": "Hello, World!",
-  "description": "Tabris.js - Hello, World!",
+  "title": "Axiom Beta,
+  "description": "Axiom Beta Camera Interface",
   "category": "Small Apps",
   "main": "src/main.js",
   "dependencies": {
