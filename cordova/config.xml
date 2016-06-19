@@ -1,10 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="my.first.app" version="1.0.0">
-  <name>HelloWorld</name>
+<widget id="AxiomBeta" version="1.0.0">
+  <name>Axiom Beta</name>
   <description>
-    A sample Tabris.js application.
+    A n interface to the Axiom Beta Camera
   </description>
-  <author email="dev@tabrisjs.com" href="https://tabrisjs.com">
-    Tabris.js Team
+  <author email="gcolburn@gmail.com" href="http://www.apertus.org">
   </author>
 </widget>
