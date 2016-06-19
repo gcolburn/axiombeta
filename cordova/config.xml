@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="AxiomBeta" version="1.0.0">
-  <name>AxiomBeta</name>
+  <name>org.colburn.gabe</name>
   <description>
     An interface to the Axiom Beta Camera
   </description>
