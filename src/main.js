@@ -1,20 +1,27 @@
 var page = new tabris.Page({
-  title: "Hello, World!",
+  title: "Axiom Beta",
   topLevel: true
 });
 
-var button = new tabris.Button({
-  text: "Native Widgets",
+var txtURL = tabris.create("TextView", {
+  font: "24px",
+  layoutData: {
+    centerX: 0, top: [button, 50]
+  }
+}).appendTo(page);
+
+var btnSetURL = tabris.create("Button", {
+  text: "Set URL",
   layoutData: {centerX: 0, top: 100}
 }).appendTo(page);
 
-var textView = new tabris.TextView({
-  font: "24px",
-  layoutData: {centerX: 0, top: [button, 50]}
+var videoViewer = new tabris.Video({
+  layoutData: {left: 0, right: 0, top: 0, bottom: 0},
+  url: "http://192.168.10.60:8888/stream"
 }).appendTo(page);
 
-button.on("select", function() {
-  textView.set("text", "Totally Rock!");
+btnSetURL.on("selection", function() {
+  videoViewer.set("url",txtURL.get("text"));
 });
 
 page.open();
